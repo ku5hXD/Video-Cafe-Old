@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("http://fonts.cdnfonts.com/css/wild-youth");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.HomeContainer {
+  /* background-color: #04080c; */
+  background-image: url("../images/bg1.jpeg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  /* background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4); */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  color: #ffef00;
+  /* color: #7fff00; */
+  font-family: "Pacifico", cursive;
+  z-index: 1;
+  -webkit-filter: blur(0px);
+  filter: blur(0px);
+  /* font-family: "Wild Youth", sans-serif; */
+
+  /* margin-bottom: 20px; */
+
+  font-weight: lighter;
+  font-size: 2.5rem;
+}
+
+.main-title2 {
+  color: #ffef00;
+  /* color: #7fff00; */
+  font-family: "Orbitron", sans-serif;
+  /* margin-bottom: 20px; */
+  font-size: 6.5rem;
+  font-weight: lighter;
+}
+
+.start--btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #04080c;
+  color: #ffef00;
+  border: 1px solid #ffef00;
+  /* background-color: #9fa4aa;
+  color: #04080c;
+  border: 2px solid #04080c; */
+  transition: all 1s;
+  font-size: 1.5rem;
+  /* font-family: "Mukta", sans-serif; */
+  font-family: "Orbitron", sans-serif;
+}
+
+.start--btn:hover {
+  /* background-color: #04080c;
+  color: #9fa4aa;
+  border: 2px solid #9fa4aa; */
+  background-color: #ffef00;
+  color: #04080c;
+  border: 2px solid #04080c;
+}

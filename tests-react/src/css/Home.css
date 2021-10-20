@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("http://fonts.cdnfonts.com/css/wild-youth");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.navbar-custom {
+  height: 4rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e0e10;
+  position: fixed !important;
+  z-index: 100;
+  border-bottom: 1px solid black;
+}
+
+img {
+  height: 100%;
+}
+
+.img1 {
+  animation: rotation 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.cafe-title {
+  color: #4a90ce;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+.upld-btn {
+  margin-right: 1rem;
+  background-color: transparent;
+  color: white;
+  padding: 5px 13px 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  transition: all 1s;
+}
+
+.upld-btn:hover {
+  background-color: white;
+  color: #000;
+  border: 2px solid #000;
+}
+
+/* .main-body {
+  height: 100%;
+} */
+
+.leftBar {
+  background-color: #0e0e10;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 1.5rem;
+  position: fixed;
+  left: 0;
+  top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  /* border-top: 1px solid black; */
+  border-right: 1px solid black;
+  height: 100vh;
+}
+
+.category-title {
+  /* color: #ebebeb; */
+  color: #83aed3;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+.cat-link {
+  display: block;
+  text-align: left;
+  margin-bottom: 1rem;
+  /* display: flex; */
+  border: 2px solid;
+  align-items: center;
+  justify-content: left;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  background-position: right bottom;
+  border: none;
+  border-bottom: 0.5px solid #aaaaaa;
+}
+
+.cat-link:hover {
+  background: linear-gradient(to right, black 50%, #212121 50%);
+  background-position: left bottom;
+  background-size: 200% 100%;
+  transition: all 1s ease-out;
+  display: block;
+  text-align: center;
+}
+
+.cat-link-text {
+  color: #ebebeb;
+}
+
+.right-bar {
+  height: 100vh;
+  padding-top: 7rem;
+  background-color: #18181b;
+  padding-left: 18rem;
+  overflow-y: scroll;
+  /* padding-bottom: 100px; */
+  /* scroll-padding-bottom: 10em; */
+  /* border-bottom: 100px solid #18181b; */
+}
+
+.custom-card {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 3rem;
+  /* border: 1px solid white; */
+  margin-right: 3.5rem;
+  align-items: center;
+  /* background-color: #464545; */
+  border-radius: 10px;
+  box-shadow: 7px 7px 12px black;
+}
+
+.custom-card:hover {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  box-shadow: -8px 8px 0px rgb(85, 34, 0);
+  border: 1px solid black;
+  /* border-radius: 0px; */
+}
+
+.video-title {
+  width: 20rem;
+  height: 3.3rem;
+  font-size: 1.3rem;
+  color: white;
+  margin-top: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.category {
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  color: #aaaaaa;
+  margin: 0;
+}
+.date {
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #212121;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #464545;
+  border-radius: 50px;
+}

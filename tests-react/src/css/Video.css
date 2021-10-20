@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("http://fonts.cdnfonts.com/css/wild-youth");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar-custom-video {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e0e10;
+  border-bottom: 1px solid black;
+  position: fixed;
+}
+
+.video-main-div {
+  height: 100vh;
+  display: flex;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.cafe-title1 {
+  margin-left: 2rem;
+  color: #4a90ce;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+.div--1 {
+  margin-top: 5rem;
+  flex: 7;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div--2 {
+  margin-top: 5rem;
+  flex: 3;
+  /* border-left: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-screen {
+  width: 90%;
+  box-shadow: -2px -2px 9px black;
+}
+
+.detail--div {
+  width: 90%;
+  text-align: left;
+  margin-left: 0.5rem;
+}
+
+.video---title {
+  margin-top: 0.8rem;
+  color: whitesmoke;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.video---desc {
+  color: #aaaaaa;
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px;
+}
+
+.card-video {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid #aaaaaa; */
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 7px 7px 12px black;
+}
+
+.video--title {
+  width: 20rem;
+  /* height: 3.5rem; */
+  font-size: 1.3rem;
+  color: white;
+  margin-top: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
