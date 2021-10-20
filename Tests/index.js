@@ -209,7 +209,7 @@ app.get("/thumbnail", (req, res) => {
       .then((response) => {
         if (response) {
           res.send(response.thumbnailpath);
-          console.log('github bolte')
+
         }
       });
   });
